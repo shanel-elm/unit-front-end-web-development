@@ -32,7 +32,7 @@ By the end of this lesson, you should be able to:
 
 ![Typical website layout.](../assets/typical-layout.png)
 
-- Take a look at [this website](https://getbootstrap.com/docs/5.1/examples/album/), focusing on the overall structure of the page as opposed to the specific styles.
+- Take a look at [this website](https://getbootstrap.com/docs/5.1/examples/album/), focusing on the overall structure of the page as opposed to the specific styles. Try resizing the window and see what happens
 
 How might CSS Grid be used to help implement this page?
 
