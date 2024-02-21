@@ -35,7 +35,7 @@ The basic idea behind CSS Grid is this:
 <details>
 <summary>Starter Code</summary>
 
-If you'd like to follow along while reading this lesson, create two new files: `grid.html` and `grid.css`, in a folder of your choice.
+To follow along while reading this lesson, create two new files: `grid.html` and `grid.css`, in a folder of your choice.
 
 Copy the following code into your HTML:
 
