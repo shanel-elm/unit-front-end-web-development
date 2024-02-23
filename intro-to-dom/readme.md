@@ -55,8 +55,6 @@ Which should render similar to this view:
 
 ![Starting view](./assets/starting-view.png)
 
-> **Note**: If the image is broken, there is a copy in the lesson assets folder called `stranger-things`, or you can use a search engine to find a similar image.
-
 You can see that there is a hierarchy among the elements. Some elements are children. Some are parents. Some are siblings.
 
 ![HTML Tree](./assets/html-tree.png)
@@ -69,7 +67,7 @@ This structure can be represented as an object, and this object is called the `D
 
 When a webpage loads, two things happen, the graphical representation of the HTML is loaded, and that's what the user sees. But also, behind the scenes, the HTML is also loaded as an object.
 
-You can code along or follow along. If you created a new project and added the above HTML to it, you can do the following:
+You can code along or follow along. If you created a new project and added the above HTML to it, you can do the following or you can go to [Welcome to Hawkins](https://10-6-pursuit.github.io/welcome-to-hawkins/) and:
 
 Open the Chrome developer console directly with <kbd>command</kbd> <kbd>option</kbd> <kbd>j</kbd>. Alternatively, you can open the developer inspector tool and click on the console tab.
 
