@@ -21,9 +21,9 @@ By the end of this lesson, you should be able to:
 
 ## Event listeners
 
-You may read or code along with the reading. If you want to code along, create a new project with an `index.html` and `app.js` file and connect them.
+To code along, create a new project with an `index.html` and `app.js` file and connect them.
 
-<details><summary>Optional Starter code</summary>
+<details><summary>Starter code</summary>
 
 ```html
 <!DOCTYPE html>
