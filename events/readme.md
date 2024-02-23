@@ -107,8 +107,6 @@ Resources like MDN and W3 Schools have a more thorough list of all the events th
 
 - [MDN: Event reference](https://developer.mozilla.org/en-US/docs/Web/Events)
 
-### F
-
 ### Adding event listeners to node lists
 
 Recall that to get more than one HTML element(node), you need to use the `querySelectorAll()` method and that it returns a `node list`, which is an array-like data structure.
