@@ -4,7 +4,7 @@
 
 By the end of this lesson, you should be able to:
 
-- HTML as a Tree
+- Understand HTML as a Tree
 - Relate HTML elements as parents, children, and siblings
 - Define the DOM
 - Explain what role the DOM plays on a web page
