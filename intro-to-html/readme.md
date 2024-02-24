@@ -68,6 +68,13 @@ Let's break down the different components of the boilerplate.
 </html>
 ```
 
+## How to run your HTML files
+
+You have a few different options for that - 
+
+1. Copy the path to the HTML file and paste it into your web browser. You will have to refresh after everytime you make a change
+2. Download the `live server` extension on VScode and open your file with a live server
+
 ### DOCTYPE
 
 HTML is rendered in browsers. Browsers need some information about the file they are trying to render. One critical piece is the file extension `.html`, and the other is the doctype, which specifies the version of HTML. Currently, the latest version is 5. Adding this line will ensure your HTML is rendered with the latest features and specifications.
