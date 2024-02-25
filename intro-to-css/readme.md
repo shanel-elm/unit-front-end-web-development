@@ -18,7 +18,7 @@ By the end of this lesson, you should be able to:
 
 You can either read along or code along.
 
-You can create a new `index.html` file and add the following.
+Create a new `index.html` file and add the following.
 
 ```html
 <body>
