@@ -452,19 +452,19 @@ Full code:
   <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-  <div>
-    <p>content</p>
-    <p>more content</p>
-    <p>even <span>more</span> content</p>
-    <p>
+  <div class="main-content">
+    <p class="main-content__paragraph">content</p>
+    <p class="main-content__paragraph">more content</p>
+    <p class="main-content__paragraph">even <span>more</span> content</p>
+    <p class="main-content__paragraph">
       a wall of <span>content </span>that just goes on... and on... and on and
       on and on...
     </p>
   </div>
-  <ul>
-    <li>one</li>
-    <li>two</li>
-    <li>three</li>
+  <ul class="unordered-list">
+    <li class="unordered-list__item">one</li>
+    <li class="unordered-list__item">two</li>
+    <li class="unordered-list__item">three</li>
   </ul>
   <h1>This is an awesome pop-up message</h1>
 </body>
