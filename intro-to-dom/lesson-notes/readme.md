@@ -96,7 +96,7 @@ Next, loop over the array. Inside the loop, use the code you've written to creat
 
 ## Nameplate
 
-Go to the nameplate page on the websiyour appace "Your Name" with your actual name and input your birthday. (Don't worry, no one else will look at this.)
+Go to the nameplate page on the repo and replace "Your Name" with your actual name and input your birthday. (Don't worry, no one else will look at this.)
 
 ### Set up
 
