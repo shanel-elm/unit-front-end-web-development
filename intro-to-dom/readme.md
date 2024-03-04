@@ -33,18 +33,19 @@ Look at the following HTML:
   </head>
   <body>
     <h1>Welcome to Hawkins</h1>
-    <div class="container">
+    <div class="featuring">
       <img
+        class="featuring__image"
         src="https://londontheinside.com/wp-content/uploads/2017/11/StrangerThings2.png"
         alt="Welcome to Hawkins"
       />
-      <h2>Featuring</h2>
-      <ul>
-        <li>Hawkins National Laboratory</li>
-        <li>Hawkins Police Station</li>
-        <li>Bradly's Big Guy Supermarket</li>
-        <li>Melvad's General Store</li>
-        <li>The Palace Arcade</li>
+      <h2 class="featuring__heading">Featuring</h2>
+      <ul class="featuring__list">
+        <li class="featuring__list-item">Hawkins National Laboratory</li>
+        <li class="featuring__list-item">Hawkins Police Station</li>
+        <li class="featuring__list-item">Bradly's Big Guy Supermarket</li>
+        <li class="featuring__list-item">Melvad's General Store</li>
+        <li class="featuring__list-item">The Palace Arcade</li>
       </ul>
     </div>
   </body>
@@ -90,7 +91,7 @@ And then access the inner text of the `h2` element:
 You may notice two things:
 
 - The document is an object that has a lot of nested objects with a lot of properties.
-- This way of accessing elements in the DOM is very fragile. If you wanted to move the `h2` into the `div` with the class `container`, the console code would break.
+- This way of accessing elements in the DOM is very fragile. If you wanted to move the `h2` into the `div` with the class `featuring`, the console code would break.
 
 Instead of accessing elements through dot notation, the `document` object has many built-in methods to help you access the elements you want.
 
@@ -225,10 +226,10 @@ The Chrome console shows it is in memory, but not in the DOM:
 
 Although you created the element, you haven't appended it anywhere to the DOM.
 
-Add those eggos to the `div` with a class `container`.
+Add those eggos to the `div` with a class `featuring`.
 
 ```js
-document.querySelector(".container").appendChild(eggos);
+document.querySelector(".featuring").appendChild(eggos);
 ```
 
 YOU can see the tag is appended after the `ul` in the Chrome console:
