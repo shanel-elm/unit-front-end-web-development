@@ -70,7 +70,7 @@ With React, you will be able to organize the code for this kind of application b
 
 ## Virtual DOM
 
-To handle the updates based on user interaction, React has a different approach than what you have done with vanilla JavaScript. React uses a **virtual DOM**. This DOM isn't the one you see on the page. The virtual DOM works behind the scenes. The virtual DOM keeps track of what to update in the real DOM. Whenever a React component changes, it updates the virtual DOM first. Then, the virtual DOM is compared to the actual DOM. React has algorithms that will only update only the necessary components of the page. This makes updates relatively fast or `reactive`.
+To handle the updates based on user interaction, React has a different approach than what you have done with vanilla JavaScript. React uses a **virtual DOM**. This DOM isn't the one you see on the page. The virtual DOM works behind the scenes. The virtual DOM keeps track of what to update in the real DOM. Whenever a React component changes, it updates the virtual DOM first. Then, the virtual DOM is compared to the actual DOM. React has algorithms that will update only the necessary components of the page. This makes updates relatively fast or `reactive`.
 
 ## React in terms of code
 
@@ -87,11 +87,11 @@ In this unit, you will use Vite (pronounced `veet`) primarily for the following 
 - Automatic browser reloading when you make a change and other pre-configurations that make using it very easy.
 - Helpful error messages.
 - File and folder structure already configured for easy use and maintenance.
-- Configured for easy deployment.
+- Easy deployment configuration.
 
 ## Getting Started with React
 
-Please feel free to read through or code along with the following code examples.
+Please code along with the following code examples.
 
 In the terminal, navigate to a convenient location on your computer and type:
 
