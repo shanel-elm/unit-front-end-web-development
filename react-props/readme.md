@@ -147,7 +147,7 @@ const ProductPage = () => {
 
 First, we're creating a variable called `listItems`, which maps through our `products` and returns React components named `ProductItem`. These `ProductItem` components have three attributes that correspond to keys of the objects in our `products` array. At first glance, however, these attributes might look confusing. They definitely aren't anything we've seen before in HTML. That's because, **while these items share the same syntax, they don't translate directly to HTML attributes.** Instead, they represent _props_ that we're passing down to our `ProductItem` components.
 
-Think of props as arguments for a component. They compile into an attribute on the component which we can reference using `this.props` (in the case of a class component) or as our function's argument (for a functional component). In this case, for each item in our `products` array, we're inputting the name, manufacturer, and price into our `ProductItem` component. You'll notice, because this component is only responsible for receiving props and rendering data, we're making this one functional, rather than using a class:
+Think of props as arguments for a component. They compile into an attribute on the component which we can reference as our function's argument (for a functional component). In this case, for each item in our `products` array, we're inputting the name, manufacturer, and price into our `ProductItem` component. 
 
 ### `ProductItem.jsx`
 
@@ -171,54 +171,6 @@ We define `ProductItem` as an anonymous function that takes its `props` as an ar
 Importantly, what you're seeing rendered is **four separate instances** of this component, each with different props. We create those instances in our `map` method in our parent component.
 
 _Exercise: Notice that the objects in our `products` array have a third key: `manufacturer`. Pass this key down to each `ProductItem` and render it alongside `name` and `price`._
-
-# Props in class components
-
-For React function components, we saw that you can add `props` as the argument to the function:
-
-```js
-const UserProfile = (props) => {
-  const { name, age, location } = props;
-  return (
-    <ul>
-      <li>Name: {name}</li>
-      <li>Age: {age}</li>
-      <li>Location: {location}</li>
-    </ul>
-  );
-};
-
-export default ProductItem;
-```
-
-In a React class component, props are accessed differently. Instead of using arguments to a function, you can access props with the expression `this.props`. This is because class components extend `React.Component`, which has a `props` attribute.
-
-Note that we aren't even including a constructor, because we don't have to!
-
-```js
-import React from "react";
-
-class UserProfile extends React.Component {
-  render() {
-    const { name, age, location } = this.props;
-    return (
-      <ul>
-        <li>Name: {name}</li>
-        <li>Age: {age}</li>
-        <li>Location: {location}</li>
-      </ul>
-    );
-  }
-}
-
-export default ProductItem;
-```
-
-_Exercise 1: For `UserProfile`, the function and class component access props differently. What differences do you notice?_
-
-_Exercise 2: In the `UserProfile` class component, `this.props` is accessed inside the `render()` method. What do you think will happen if we move that line of code outside the render method? Where else could you put it?_
-
-_Exercise 3: Refactor the `ProductItem` component above to be a class component. Make sure it still handles props._
 
 # Component Architecture
 
