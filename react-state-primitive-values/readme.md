@@ -43,18 +43,23 @@ Thinking back to when you used Vanilla JavaScript, you would create an element a
 
 ```html
 <!-- HTML -->
-<div>
-  <button>Change to dark mode</button>
-</div>
+ <div class="container">
+    <h1>Light/Dark Mode Toggle</h1>
+    <button id="toggleBtn">Toggle Mode</button>
+ </div>
 ```
 
 ```js
 // JavaScript
-const button = document.querySelector("button");
-button.addEventListener("click", () => {
-  console.log("Dark mode on!");
+const toggleBtn = document.getElementById('toggleBtn');
+const body = document.body;
+
+toggleBtn.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
 });
 ```
+
+[See full code in this replit](https://replit.com/@RazEfron/Dark-Mode-App?v=1)
 
 ## React, no arguments for the event listener/handler
 
